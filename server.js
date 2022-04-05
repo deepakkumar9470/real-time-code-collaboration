@@ -81,7 +81,7 @@ app.get('/', (req,res)=>{
     res.send('hello coolab..')
 })
 
-server.listen(5000, ()=>{
+server.listen(PORT, ()=>{
     console.log(`Server started at port ${PORT}`)
 })
 
