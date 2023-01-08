@@ -1,7 +1,7 @@
-import React, {useState} from 'react'
+import React from 'react'
 import './App.css';
 
-import toast, { Toaster } from 'react-hot-toast';
+import { Toaster } from 'react-hot-toast';
 import {BrowserRouter, Routes,Route} from 'react-router-dom'
 import Home from './pages/Home';
 import EditorPage from './pages/EditorPage';
